@@ -95,8 +95,8 @@ def main():
     """
     Main function to run the trading bot CLI.
     """
-    api_key ='ca08bf97b4c54bfc61f36c05046d1e174be2caf70baf7bccf8a22bcfd3bc0bc3'
-    api_secret = '2a18eee0cd7395718bdbd2253e06201983851d2711f724c2b19d3e31b74c13e0'
+    api_key ='Enter Your API Key'
+    api_secret = 'Enter your API Secret'
 
     if not api_key or not api_secret:
         print("Please set the BINANCE_TESTNET_API_KEY and BINANCE_TESTNET_API_SECRET environment variables.")
